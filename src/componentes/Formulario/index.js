@@ -6,7 +6,7 @@ const Formulario = () => {
     const times = [
         'Programação',
         'Front-end',
-        'Dta Science',
+        'Data Science',
         'Devops',
         'UX e Design',
         'Mobile',
@@ -20,7 +20,7 @@ const Formulario = () => {
             <CampoTexto label="Nome" placeholder="Digite seu nome"/>
             <CampoTexto label="Cargo" placeholder="Digite seu cargo"/>
             <CampoTexto label="Imagem" placeholder="Digite o endereço de uma imagem"/>
-            <ListaSuspensa itens={times}/>
+            <ListaSuspensa label="Time" itens={times}/>
         </form>
     </section>)
 }
